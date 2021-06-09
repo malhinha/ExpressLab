@@ -1,13 +1,31 @@
 <head>
   #title#
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
   <style>
     body {
       color: white;
       background-color: black;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    h1 {
+      font-weight: 700;
+      font-size: 4em;
+      padding: 25px;
+      text-align: right;
+    }
+
+    div {
+      font-weight: 300;
+      font-size: 3em;
+      padding: 25px;
+      text-align: right;
+    }
     }
   </style>
 </head>
 <body>
-  <header>#header#</header>
+  #header#
   #content#
 </body>

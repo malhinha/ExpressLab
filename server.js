@@ -41,11 +41,11 @@ app.get('/one', (reg, res) => {
 });
 
 app.get('/two', (reg, res) => {
-  res.render('right', { title: 'Fact Two', header: 'First Fact:', content: 'Coltrane is my fav' })
+  res.render('right', { title: 'Fact Two', header: 'Second Fact:', content: 'Coltrane is my fav' })
 });
 
 app.get('/three', (reg, res) => {
-  res.render('left', { title: 'Fact Three', header: 'Third Fact:', content: 'A Love Supreme' })
+  res.render('left', { title: 'Fact Three', header: 'Third Fact:', content: 'A Love Supreme. (That is all)' })
 });
 
 app.get('/four', (reg, res) => {
