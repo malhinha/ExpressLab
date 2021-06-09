@@ -1,0 +1,13 @@
+<head>
+  #title#
+  <style>
+    body {
+      color: white;
+      background-color: black;
+    }
+  </style>
+</head>
+<body>
+  <header>#header#</header>
+  #content#
+</body>
